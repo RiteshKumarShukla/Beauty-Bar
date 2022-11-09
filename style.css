@@ -1,0 +1,360 @@
+#logo {
+  width: 8%;
+  margin-left: 100px;
+  border-radius: 50%;
+  padding: -50px;
+  margin-right: 50px;
+}
+#topImg {
+  width: 100%;
+}
+#navbar {
+  background-color: #dd0285;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+#navBar {
+  /* background-color: #dd0285;
+       */
+  background-color: white;
+  /* width: 100%; */
+  height: 100px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  color: white;
+}
+#searchS {
+  display: flex;
+  /* border: none; */
+}
+#allcat {
+  height: 50px;
+  margin-left: 100px;
+  /* border: none; */
+  border-color: lightgrey;
+}
+#searchLogo {
+  width: 50px;
+  /* border: none; */
+}
+#IPS {
+  height: 42px;
+  width: 350px;
+  font-size: 18px;
+  border-color: lightgrey;
+  /* border: none; */
+}
+#subS > button {
+  height: 50px;
+  border-radius: 0px 3px 3px 0px;
+  width: 100%;
+  border: 1px solid black;
+  border: none;
+  background-color: #dd0285;
+}
+
+#subS > button > img {
+  height: 90%;
+  width: auto;
+  /* border-radius: 40px; */
+  /* border: 1px solid black; */
+}
+
+#subS {
+  height: 100%;
+  width: 11%;
+  background-color: #dd0285;
+  border-radius: 0px 3px 3px 0px;
+}
+
+#wS {
+  height: 60%;
+  /* border: 1px solid black; */
+  width: 20%;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  justify-content: space-between;
+}
+
+.whistS {
+  height: 100%;
+  width: 20%;
+  border: 1px solid black;
+}
+
+.whistS:hover {
+  background-color: #dd0285;
+}
+
+.whistS > img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+#accu {
+  height: 100%;
+  width: 25%;
+  border: 1px solid lightgray;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#accu > img {
+  height: 80%;
+  margin-top: 5px;
+  width: 80%;
+}
+
+#Acc {
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+
+#UserName {
+  color: black;
+  font-weight: lighter;
+  text-align: right;
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#navbarP {
+  background-image: url("/ad-desktop.jpg");
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+.option {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.option > h3 {
+  font-size: 1em;
+  padding: 14px 15px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.column {
+  flex-direction: column;
+}
+
+.option > h3:hover,
+#makeup {
+  background-color: #b7026f;
+}
+#cart-div > div > img {
+  width: 36%;
+  margin-top: -15px;
+}
+#mycart {
+  text-align: center;
+  margin-top: -40px;
+  margin-left: 50px;
+}
+#navbarS {
+  height: 92px;
+  width: 1423px;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ritesh {
+  display: flex;
+  gap: 150px;
+  margin: auto;
+  padding: 0px 10px 0px 10px;
+  /* justify-content: space-around; */
+}
+
+.ritesh > h2 {
+  color: #666666;
+  font-size: larger;
+}
+
+.ritesh2 {
+  display: flex;
+  gap: 20px;
+}
+
+.ritesh2 > img {
+  width: 70%;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.ritesh2 > p {
+  color: grey;
+  font-size: 21px;
+}
+#collab {
+  display: flex;
+}
+
+#collab > img {
+  width: 14%;
+  height: 20px;
+  margin-top: 25px;
+}
+
+#collab > h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.same {
+  display: flex;
+  /* text-align: center; */
+}
+
+#navbarP > div {
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+  padding-top: 5px;
+}
+
+#a {
+  margin-right: 110px;
+  margin-left: -5px;
+}
+
+#b {
+  margin-left: 30px;
+}
+
+#c {
+  margin-left: -5px;
+}
+
+#w {
+  height: 60%;
+  border: 1px solid black;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whist {
+  height: 100%;
+  width: 20%;
+  border: 1px solid black;
+}
+
+.whist:hover {
+  background-color: #dd0285;
+}
+
+.whist > img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+#heading {
+  padding-left: 36px;
+  width: 14%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: -38px;
+}
+
+#heading > h1 {
+  border-bottom: 3px solid #dd0285;
+}
+#slide {
+  overflow: hidden;
+}
+
+#slide figure {
+  position: relative;
+  width: 600%;
+
+  margin: 0;
+  left: 0;
+  animation: 10s slide infinite;
+}
+
+#slide figure img {
+  float: left;
+  width: 16.5%;
+}
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+
+  15% {
+    left: 0;
+  }
+
+  20% {
+    left: -100%;
+  }
+
+  35% {
+    left: -100%;
+  }
+
+  40% {
+    left: -200%;
+  }
+
+  45% {
+    left: -200%;
+  }
+
+  55% {
+    left: -200%;
+  }
+
+  65% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+}
+#div {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#div > div:nth-child(1) {
+  /* border: 1px solid black; */
+  height: 450px;
+  width: 25%;
+}
+
+#div > div:nth-child(2) {
+  /* border: 1px solid black; */
+  height: 480px;
+  width: 75%;
+}
